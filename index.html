@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Tenis game</title>
+  <style type="text/css">
+      .green{color: green;}
+  </style>
+</head>
+
+<body >
+
+<div class="container">
+   <div class="row bg-primary">
+       <div class="text-center p-3"><h1>WelCome to Tenis Game demo</h1></div>
+   </div>
+   <div class="row">
+        <div class="col-md-6">
+           <div class="jumbotron"><h2>Rules of this game</h2>
+           <hr>
+           <p>first give a input how much number u will play <br> <span class="text-alert">(tenis game regular play 15)</span> but u can play as your wish
+           </p>
+           <hr>
+           <p>After submit plese refresh the play and start play</p>
+           <hr>
+           <h4>End Game don't worry, press reset for another game</h4>
+           </div>
+       </div>
+       <div class="col-md-6">
+          <input type="text" class="input form-control">
+         <input type="submit" value="Submit" class="btn btn-block btn-success">
+          <button class="reset btn btn-danger btn-block">Reset</button>
+          <br><br><hr>
+          
+          <h2>Playing to <span class="ws"></span></h2>
+           <h1 class="boss"><span class="p1dis">0</span> to 
+            <span class="p2dis">0</span></h1>
+    
+     <div class="game-inner"> 
+         <button class="player1 btn btn-primary btn-block">Player1</button>
+         <button class="player2 btn btn-secondary btn-block">Player2</button>
+         
+     </div>
+       </div>
+     
+   </div>
+    
+</div>
+    
+  <script src="main.js"></script> 
+   
+</body>
+</html>
